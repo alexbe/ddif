@@ -1,0 +1,28 @@
+{
+  "name": "ddif",
+  "version": "0.1.0",
+  "description": "library to create and apply data diffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbe/ddif.git"
+  },
+  "keywords": [
+    "modules",
+    "array",
+    "update"
+  ],
+  "author": "Alexander Bechkov <bechkov@gmail.com> (https://github.com/alexbe)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexbe/ddif/issues"
+  },
+  "homepage": "https://github.com/alexbe/ddif#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
