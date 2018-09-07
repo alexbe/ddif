@@ -10,7 +10,13 @@ var feb2018Top5IIHFRanking=[
     {team:'Finland',points:3820},
     {team:'Czech Republic',points:3740}
 ];
-
+var may2018ddif={
+    '#':201805, //array version
+    '^:*.points':[3990,3930,3945,3765], //update values of .points property, 
+                                        //it takes indexes from values array 
+    '@:4':[{team:'USA',points:3765}],   //replace operation for member with index==4
+    '>':['points']                      //sort asc by points
+    };
 
 describe('#ddif', function() {
     it('should make readme test', function() {
